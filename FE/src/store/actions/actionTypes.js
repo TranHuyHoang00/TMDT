@@ -1,0 +1,10 @@
+const actionTypes = Object.freeze({
+
+    USER_LOGIN_SUCCESS: 'USER_LOGIN_SUCCESS',
+    PROCESS_LOGOUT: 'PROCESS_LOGOUT',
+
+    ADMIN_LOGIN_SUCCESS: 'ADMIN_LOGIN_SUCCESS',
+    PROCESS_LOGOUT_ADMIN: 'PROCESS_LOGOUT_ADMIN',
+})
+
+export default actionTypes;
